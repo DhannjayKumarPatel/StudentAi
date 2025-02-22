@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentAi - Advanced Study App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>StudentAi</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('live-class')">Live</a></li>
+                <li><a href="#" onclick="showSection('vod')">VOD</a></li>
+                <li><a href="#" onclick="showSection('all')">All</a></li>
+                <li><a href="#" onclick="showSection('other')">Other</a></li>
+                <li><a href="#" onclick="showSection('crash-course')">Crash</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="live-class" class="course-list active">
+                <div class="course">
+                    <img src="live-class.jpg" alt="Live Class">
+                    <div class="course-details">
+                        <h3>Mathematics Mastery</h3>
+                        <p>Fee: $200 | Teacher: John Doe | Mode: Online</p>
+                        <a href="#" class="cta-button">Enroll Now</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 StudentAi. All rights reserved.</p>
+            <p>Contact us: info@studentai.com</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
